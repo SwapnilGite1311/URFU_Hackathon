@@ -6,11 +6,13 @@ import GlassCard from "../components/GlassCard";
 import { traceability, product } from "../data";
 
 export default function Traceability() {
-  const verifyUrl =
-    typeof window !== "undefined"
-      ? `${window.location.origin}/verify/${product.id}`
-      : `/verify/${product.id}`;
+  // const verifyUrl =
+  //   typeof window !== "undefined"
+  //     ? `${window.location.origin}/verify/${product.id}`
+  //     : `/verify/${product.id}`;
 
+  const verifyUrl =
+  "https://urfu-hackathon.netlify.app/verify/GG-2026-004471";
   return (
     <div>
       <PageHero
