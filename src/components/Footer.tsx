@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-white/5 mt-32">
       <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
-          <p className="font-display text-base">GammaGuard</p>
+          <p className="font-display text-base">HarvestGuard</p>
           <p className="text-muted text-sm mt-1 max-w-md">
             A proposal for nuclear infrastructure enabling safe, traceable gamma-ray
             food preservation — built for URFU International Hackathon 2026.

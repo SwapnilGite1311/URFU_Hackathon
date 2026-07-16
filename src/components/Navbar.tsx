@@ -37,7 +37,7 @@ export default function Navbar() {
           >
             <Atom className="w-6 h-6" strokeWidth={1.75} />
           </motion.span>
-          <span className="font-display text-lg tracking-wide">GammaGuard</span>
+          <span className="font-display text-lg tracking-wide">HarvestGuard</span>
         </Link>
 
         <ul className="hidden md:flex items-center gap-8">
